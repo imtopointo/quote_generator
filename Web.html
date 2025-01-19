@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <script src="quoteGenerator.js"> </script>
+    <script src="quotes.js"> </script>
+</head>
+<body>
+    <header>
+        <h1>Quote of the Day</h1>
+    </header>
+    <main>
+        <p>Quotes to brighten your day!</p>
+        <button id="alertButton" onclick="quoteGen('1')">Generate a Motivational Quote</button>
+        <button id="alertButton" onclick="quoteGen('2')">Generate a Historical Quote</button>
+        <button id="alertButton" onclick="quoteGen('3')">Generate a Funny Quote</button>
+        <button id="alertButton" onclick="quoteGen('4')">Generate a Space Quote</button>
+        <p id="quote">QUOTE GO HERE</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 MyWebsite</p>
+    </footer>
+</body>
+</html>
