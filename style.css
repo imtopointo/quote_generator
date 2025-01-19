@@ -22,7 +22,7 @@ main {
 }
 
 button {
-    background-color: #0078d7;
+    background-color: #ff2223;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -37,7 +37,7 @@ button:hover {
 /* Footer Styles */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #ff22d5;
     color: white;
     padding: 10px 0;
     position: fixed;
